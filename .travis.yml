@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  - "lts/*"
+addons:
+  apt:
+    packages:
+      # needed by Cypress, not in Ubuntu 16+ by default
+      - libgconf-2-4
+cache:
+  npm: true
+  directories:
+    - ~/.npm
+    - ./node_modules
+    - ~/.cache
+  override:
+    # as an alternative to npm install
+    - npm ci
+  script:
+    - npm run cy:dashboard
