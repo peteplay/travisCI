@@ -17,4 +17,5 @@ cache:
     # as an alternative to npm install
     - npm ci
   script:
-    - npm run cy:dashboard
+    #- npm run cy:dashboard
+    - npm run cy:run
