@@ -16,6 +16,9 @@ cache:
   override:
     # as an alternative to npm install
     - npm ci
+    - npm run cy:verify
+    - npm run cy:info
+
   script:
     #- npm run cy:dashboard
     - npm run cy:run

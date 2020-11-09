@@ -10,7 +10,9 @@
     "cy:run:firefox": "cypress run --browser firefox",
     "cy:run:electron": "cypress run --browser electron",
     "cy:run:edge": "cypress run --browser edge",
-    "cy:dashboard": "cypress run --record --key f586ae59-974a-41f1-be19-943e4f84e12a"
+    "cy:dashboard": "cypress run --record --key f586ae59-974a-41f1-be19-943e4f84e12a",
+    "cy:verify": "cypress verify",
+    "cy:info": "cypress info"
   },
   "keywords": [
     "TravisCI"
@@ -25,5 +27,8 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "start-server-and-test": "^1.11.5"
   }
 }
