@@ -1,7 +1,6 @@
 language: node_js
-
 node_js:
-  - "lts/*"
+  - 'lts/*'
 addons:
   apt:
     packages:
@@ -13,7 +12,8 @@ cache:
     - ~/.npm
     - ./node_modules
     - ~/.cache
-  install:
-    - npm ci
-  script:
-    - npm run cy:dashboard
+install:
+  - npm ci
+script:
+  #- npm run cy:dashboard
+  - npm run cy:run
