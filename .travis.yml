@@ -14,9 +14,7 @@ cache:
     - ~/.cache
 install:
   - npm ci
-  # the above is an laternative for the below
+  # the above is an alternative for the below
   # - npm install
 script:
   - npm run cy:dashboard
-  #- $(npm bin)/cypress run --record
-  #- npm run cy:ci
