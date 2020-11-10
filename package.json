@@ -12,9 +12,7 @@
     "cy:run:edge": "cypress run --browser edge",
     "cy:dashboard": "cypress run --record --key f586ae59-974a-41f1-be19-943e4f84e12a",
     "cy:verify": "cypress verify",
-    "cy:info": "cypress info",
-    "start": "my-server -p 3030 --https",
-    "cy:ci": "START_SERVER_AND_TEST_INSECURE=1 start-server-and-test start https-get://localhost:3030 cy:run"
+    "cy:info": "cypress info"
   },
   "keywords": [
     "TravisCI"
