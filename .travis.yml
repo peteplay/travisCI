@@ -20,5 +20,4 @@ cache:
     - npm run cy:info
 
   script:
-    #- npm run cy:dashboard
-    - npm run cy:run
+    - npm run cy:dashboard
