@@ -13,11 +13,7 @@ cache:
     - ~/.npm
     - ./node_modules
     - ~/.cache
-  override:
-    # as an alternative to npm install
+  install:
     - npm ci
-    - npm run cy:verify
-    - npm run cy:info
-
   script:
     - npm run cy:dashboard
