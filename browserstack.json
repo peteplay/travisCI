@@ -1,0 +1,61 @@
+{
+    "auth": {
+		"username": "peteharris4",
+		"access_key": "9xW1qwkS4iy5VHY3txk2"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        },
+        {
+            "browser": "chrome",
+            "os": "OS X Mojave",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "chrome",
+            "os": "OS X Catalina",
+            "versions": [
+                "latest"
+            ]
+        }
+    ],
+	"run_settings": {
+		"cypress_config_file": "cypress.json",
+		"project_name": "Browserstak",
+		"build_name": "0.1",
+		"exclude": [],
+		"parallels": "1",
+		"npm_dependencies": {
+			"cypress": "^5.5.0",
+			"cypress-cucumber-preprocessor": "^4.0.0",
+			"cypress-image-snapshot": "^3.1.1",
+			"prettier": "^2.1.2"
+		},
+		"package_config_options": {
+			"cypress-cucumber-preprocessor": {
+				"nonGlobalStepDefinitions": true
+			}
+		}
+	},
+	"connection_settings": {
+		"local": false,
+		"local_identifier": null
+	},
+	"disable_usage_reporting": false
+}

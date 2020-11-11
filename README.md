@@ -2,3 +2,4 @@
 
 **with .travis.yml file**
 **results added to cypress dashboard**
+*Includes option for browserstack*
