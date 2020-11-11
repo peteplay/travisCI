@@ -37,7 +37,7 @@
     ],
 	"run_settings": {
 		"cypress_config_file": "cypress.json",
-		"project_name": "Browserstak",
+		"project_name": "Travis CI",
 		"build_name": "0.1",
 		"exclude": [],
 		"parallels": "1",

@@ -19,5 +19,5 @@ install:
   # - npm install
 script:
   #- npm run cy:dashboard
-  - npm run cy:run:browserstack
-  #- npm run cy:run
+  #- npm run cy:run:browserstack
+  - npm run cy:run
