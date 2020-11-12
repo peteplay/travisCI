@@ -1,6 +1,5 @@
 version: 2.1
 app-dir: 
-  default: .
 orbs:
   cypress: cypress-io/cypress@1.1.0
 workflows:
