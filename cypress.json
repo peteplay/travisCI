@@ -12,5 +12,13 @@
     "*.js",
     "*.md"
   ],
-  "projectId": "uqobqh"
+  "projectId": "uqobqh",
+  
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
 }
