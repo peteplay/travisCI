@@ -6,4 +6,4 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          record:true
+          record: true
