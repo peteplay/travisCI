@@ -18,6 +18,6 @@ install:
   # the above is an alternative for the below
   # - npm install
 script:
-  #- npm run cy:dashboard
+  - npm run cy:dashboard
   #- npm run cy:run:browserstack
-  - npm run cy:run
+  #- npm run cy:run
