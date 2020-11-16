@@ -14,7 +14,8 @@
     "cy:verify": "cypress verify",
     "cy:info": "cypress info",
     "cy:run:browserstack": "browserstack-cypress run",
-    "ci:teamcity-cy-run": "cypress run --reporter mocha-teamcity-reporter"
+    "ci:teamcity-cy-run": "cypress run --reporter mocha-teamcity-reporter",
+    "cy:docker": "docker-compose -f docker-compose.yml up"
   },
   "keywords": [
     "TravisCI"
